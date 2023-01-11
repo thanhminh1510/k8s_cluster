@@ -4,7 +4,6 @@
     - name: initialize the cluster
       shell: |
               kubeadm init
-
     - name: create .kube directory
       become: yes
       become_user: ubuntu
