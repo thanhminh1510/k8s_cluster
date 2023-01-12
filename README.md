@@ -10,3 +10,6 @@ link: https://docs.microfocus.com/doc/Data_Center_Automation/2019.11/SetSystemPa
 
 Most CNIs rely on iptables rules for at least some of their packet processing, and because they handle the container network, they need to handle bridged packets. If bridged packets aren’t sent through iptables, they aren’t processed as expected by the CNI.
 link: https://unix.stackexchange.com/questions/720105/what-is-the-net-bridge-bridge-nf-call-iptables-kernel-parameter
+
+# kubectl Cheat Sheet
+link: https://kubernetes.io/vi/docs/reference/kubectl/cheatsheet/
